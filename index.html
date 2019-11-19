@@ -29,7 +29,7 @@
               <p style="text-align:center">
                 <name>Lingzhi Zhang</name>
               </p>
-              <p>I am computer science PhD student working at University of Pennslvnia <a href="https://ai.google/research">Google Research</a>, advised by Prof.Jianbo Shi. I am interesting in working on Computer Vision, Robotics, and General AI problems. 
+              <p>I am a first-year computer science PhD student working at University of Pennslvnia <a href="https://ai.google/research">Google Research</a>, advised by Prof.Jianbo Shi. I am interesting in working on Computer Vision, Robotics, and General AI problems. 
               </p>            
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -41,9 +41,6 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
-              </p>
             </td>
           </tr>
         </tbody></table>
@@ -93,7 +90,44 @@
             </td>
           </tr>
           
-
+          <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mpi_image'><img src='images/mpi_after.jpg'></div>
+                <img src='images/mpi_before.jpg'>
+              </div>
+              <script type="text/javascript">
+                function mpi_start() {
+                  document.getElementById('mpi_image').style.opacity = "1";
+                }
+                function mpi_stop() {
+                  document.getElementById('mpi_image').style.opacity = "0";
+                }
+                mpi_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1TU5L6fnt4Kd49IUOU7aNxor5NIgdHuNG/view?usp=sharing">
+                <papertitle>Pushing the Boundaries of View Extrapolation with Multiplane Images</papertitle>
+              </a>
+              <br>
+              <a href="https://people.eecs.berkeley.edu/~pratul/">Pratul P. Srinivasan</a>, Richard Tucker,
+              <strong>Jonathan T. Barron</strong>,
+              <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
+              <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>,
+              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>
+              <br>
+              <em>CVPR</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation, Best Paper Award Finalist)</strong></font>
+              <br>
+              <a href="https://drive.google.com/file/d/1GUW_n-BAn9Q4VntEA_OTHNJiHO7XfC62/view?usp=sharing">supplement</a> /
+              <a href="https://www.youtube.com/watch?v=aJqAaMNL2m4">video</a> /
+              <a href="data/SrinivasanCVPR2019.bib">bibtex</a>
+              <p></p>
+              <p>View extrapolation with multiplane images works better if you reason about disocclusions and disparity sampling frequencies.</p>
+            </td>
+          </tr>
+          
+          
         </tbody></table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
