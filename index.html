@@ -1,341 +1,411 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- Hi, Jon Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7580334-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-7580334-2');
   </script>
 
   <title>Lingzhi Zhang</title>
-  
+
   <meta name="author" content="Lingzhi Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/seal_icon.png">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Lingzhi Zhang</name>
-              </p>
-              <p>I am a PhD student in CS at at the <a href="https://www.cis.upenn.edu/">University of Pennslvnia</a>, advised by <a href="https://www.cis.upenn.edu/~jshi/">Professor Jianbo Shi</a>. I am interested in problems in computer vision, robotics and artificial intelligence. Recently, I have been working on image editings and boosting visual recognition with generative models. 
-              </p>            
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/zlz.jpg"><img style="width:60%;max-width:60%" alt="profile photo" src="images/zlz.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Lingzhi Zhang</name>
+                  </p>
+                  <p>I am a PhD student in CS at at the <a href="https://www.cis.upenn.edu/">University of
+                      Pennslvnia</a>, advised by <a href="https://www.cis.upenn.edu/~jshi/">Professor Jianbo Shi</a>. I
+                    am interested in problems in computer vision, robotics and artificial intelligence. Recently, I have
+                    been working on image editings and boosting visual recognition with generative models.
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="images/zlz.jpg"><img style="width:60%;max-width:60%" alt="profile photo" src="images/zlz.jpg"
+                      class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Research</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
 
-          <tr onmouseout="InpaintArtifacts()" onmouseover="InpaintArtifacts()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='outpaint'><img src='images/coming.png' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-<!--               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf"> -->
-                <papertitle>Perceptual Artifacts Localization for Inpainting</papertitle> 
-              </a>
-              <br>
-              <strong>Lingzhi Zhang</strong>, 
-              Yuqian Zhou,
-              Connelly Barnes,
-              Sohrab Amirghodsi,
-              Zhe Lin,
-              Eli Shechtman, 
-              Jianbo Shi
-              <br>
-              <em>ECCV 2022 (Oral)</em>
-              <br>
-              <p></p>
-              <p>
-                  we propose a new learning task of automatic segmentation of inpainting perceptual artifacts, and apply the model for inpainting model evaluation and iterative refinement.
-              </p>
-            </td>
-          </tr>
- 
-          <tr onmouseout="SuperCAF()" onmouseover="SuperCAF()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='outpaint'><img src='images/coming.png' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-<!--               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf"> -->
-                <papertitle>Inpainting at Modern Camera Resolution by Guided PatchMatch with Auto-Curation</papertitle> 
-              </a>
-              <br>
-              <strong>Lingzhi Zhang</strong>, 
-              Connelly Barnes,
-              Kevin Wampler,
-              Sohrab Amirghodsi,
-              Eli Shechtman, 
-              Zhe Lin, 
-              Jianbo Shi
-              <br>
-              <em>ECCV 2022</em>
-              <br>
-              <p></p>
-              <p>
-                In this work, we target image inpainting problem at modern camera resolution. We use an existing deep inpainting model LaMa to fill the hole plausibly, es- tablish three guide images consisting of structure, segmentation, depth, and apply a multiply-guided PatchMatch to produce eight candidate upsampled inpainted images. Next, we feed all candidate inpaintings through a novel curation module that chooses a good inpainting by column summation on an 8x8 antisymmetric pairwise preference matrix.
-              </p>
-            </td>
-          </tr>   
-          
-          <tr onmouseout="EgoHOS()" onmouseover="EgoHOS()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='outpaint'><img src='images/egohos.gif' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-              <!--               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf"> -->
-                <papertitle>Fine-Grained Egocentric Hand-Object Segmentation: Dataset, Model, and Applications</papertitle> 
-              </a>
-              <br>
-              <strong>Lingzhi Zhang*</strong>, 
-              Shenghao Zhou*,
-              Simon Stent,
-              Jianbo Shi (* indicates equal contribution)
-              <br>
-              <em>ECCV 2022</em>
-              <br>
-              <p></p>
-              <p>
-                Egocentric videos offer fine-grain information for high-fidelity modeling of human behaviors. We provide a labeled dataset consisting of 11,235 egocentric images with per-pixel segmentation labels of hands and the interacting objects in diverse daily activities. We show that our robust hand-object segmentation model and dataset can serve as a foundation tool to boost or enable several downstream vision applications.
-              </p>
-            </td>
-          </tr>   
-          
-          <tr onmouseout="Placement()" onmouseover="Placement()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='outpaint'><img src='images/cvpr_placement.jpg' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-              <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf">
-                <papertitle>Learning Diverse Object Placement by Inpainting for Compositional Data Augmentation</papertitle> 
-              </a>
-              <br>
-              <strong>Lingzhi Zhang</strong>, 
-              Tarmily Wen,
-              Jie Min, 
-              David Han,
-              Jianbo Shi
-              <br>
-              <em>ECCV 2020</em>
-              <br>
-              <p></p>
-              <p>
-                We study the problem of common sense placement of visual objects in an image. We first propose a self-learning framework that automatically generates necessary training data without any manual labeling by detecting, cutting, and inpainting objects from an image. We learn a generative model that predicts a set of diverse common sense locations when given a foreground object and a background scene. We show experimentally our object placement newtork can be used to augment training data to boost instance segmentation. 
-              </p>
-            </td>
-          </tr>   
-          
-          <tr onmouseout="Scale_Edit()" onmouseover="Scale_Edit()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='scale_edit'><img src='images/cvpr_scale_edit_v3.jpg' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-              <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Nested_Scale-Editing_for_Conditional_Image_Synthesis_CVPR_2020_paper.pdf">
-                <papertitle>Nested Scale-Editing for Conditional Image Synthesis</papertitle>
-              </a>
-              <br>
-              <strong>Lingzhi Zhang*</strong>, 
-              Jiancong Wang*,
-              Yinshuang Xu, 
-              Jie Min,
-              Tarmily Wen, 
-              James C. Gee,
-              Jianbo Shi (* indicates equal contribution)
-              <br>
-              <em>CVPR 2020</em>
-              <br>
-              <p></p>
-              <p>
-                We proposed an image synthesis approach that provides stratified navigation in the latent code space. We achieve this through scale-independent editing while expanding scale-specific diveristy. Scale-independent is achieved with a nested scale disentanglement loss. Scale-specific diversity is created by incorporating a progressive diversification constraint. 
-              </p>
-            </td>
-          </tr>   
-          
-          <tr onmouseout="DeepBlend()" onmouseover="DeepBlend()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='blend'><img src='images/wacv_blend.jpg' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-              <a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Zhang_Deep_Image_Blending_WACV_2020_paper.pdf">
-                <papertitle>Deep Image Blending</papertitle>
-              </a>
-              <br>
-              <strong>Lingzhi Zhang</strong>, 
-              Tarmily Wen,
-              Jianbo Shi 
-              <br>
-              <em>WACV 2020
-              <br>
-              <p></p>
-              <p>
-                We propose a Poisson blending loss that achieves the same purpose of Poisson Image Editing. We jointly optimize the proposed Poisson blending loss with style and content loss computed from a deep network, and reconstruct the blending region by iteratively updating the pixels using the L-BFGS solver. In the blending image, we not only smooth out gradient domain of the blending boundary but also add consistent texture into the blending region. 
-              </p>
-            </td>
-          </tr>                        
-          
-          <tr onmouseout="Outpaint()" onmouseover="Outpaint()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='outpaint'><img src='images/wacv_outpaint.jpg' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-              <a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Zhang_Multimodal_Image_Outpainting_With_Regularized_Normalized_Diversification_WACV_2020_paper.pdf">
-                <papertitle>Multimodal Image Outpainting with Regularized Normalized Diversification</papertitle>
-              </a>
-              <br>
-              <strong>Lingzhi Zhang</strong>, 
-              Jiancong Wang,
-              Jianbo Shi 
-              <br>
-              <em>WACV 2020
-              <br>
-              <p></p>
-              <p>
-                We study the problem of generating a set of realistic and diverse backgrounds when given only a small foreground region, which we formulate as image outpainting task. We propose a generative model by improving the normalized diversification framework to encourage diverse sampling in this conditional synthesis task. The results show that our proposed approach can produce more diverse images with similar or better quality compare to the state-of-the-arts methods. 
-              </p>
-            </td>
-          </tr>          
-          
-          <tr onmouseout="NeuralEmbedding()" onmouseover="NeuralEmbedding()">
-            <td style="padding:20px;width:35%;vertical-align:top">
-              <div class="one">
-                <div class="two" id='nips_emb'><img src='images/nips_emb.jpg' style="width:100%;max-width:100%"></div>
-              </div>
-            </td>
-            <td style="padding:20px;width:65%;%;vertical-align:top">
-              <a href="https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_119.pdf">
-                <papertitle>Neural Embedding for Physical Manipulations</papertitle>
-              </a>
-              <br>
-              <strong>Lingzhi Zhang*</strong>, 
-              Andong Cao*,
-              Rui Li,
-              Jianbo Shi (* indicates equal contribution)
-              <br>
-              <em>Machine Learning for Physical Science Workshop, NeurIPS</em>, 2019
-              <br>
-              <p></p>
-              <p>
-                Inspired by the properties of grid cells in mammalian brains, we build a generative model that enforces a normalized pairwise distance constraint between the latent space and output space to achieve data-efficient discovery of output spaces. We leverage this approach to learn the full topology of action and state spaces when given only few and sparse observations.
-              </p>
-            </td>
-          </tr>
-         
-          
-        </tbody></table>
+              <tr onmouseout="InpaintArtifacts()" onmouseover="InpaintArtifacts()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='outpaint'><img src='images/coming.png' style="width:100%;max-width:100%"></div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <!--               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf"> -->
+                  <papertitle>Perceptual Artifacts Localization for Inpainting</papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang</strong>,
+                  Yuqian Zhou,
+                  Connelly Barnes,
+                  Sohrab Amirghodsi,
+                  Zhe Lin,
+                  Eli Shechtman,
+                  Jianbo Shi
+                  <br>
+                  <em>ECCV 2022 (Oral)</em>
+                  <br>
+                  <p></p>
+                  <p>
+                    we propose a new learning task of automatic segmentation of inpainting perceptual artifacts, and
+                    apply the model for inpainting model evaluation and iterative refinement.
+                  </p>
+                </td>
+              </tr>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Teaching</heading>
-            </td>
-          </tr>
-        </tbody></table>
+              <tr onmouseout="SuperCAF()" onmouseover="SuperCAF()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='outpaint'><img src='images/coming.png' style="width:100%;max-width:100%"></div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <!--               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf"> -->
+                  <papertitle>Inpainting at Modern Camera Resolution by Guided PatchMatch with Auto-Curation
+                  </papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang</strong>,
+                  Connelly Barnes,
+                  Kevin Wampler,
+                  Sohrab Amirghodsi,
+                  Eli Shechtman,
+                  Zhe Lin,
+                  Jianbo Shi
+                  <br>
+                  <em>ECCV 2022</em>
+                  <br>
+                  <p></p>
+                  <p>
+                    In this work, we target image inpainting problem at modern camera resolution. We use an existing
+                    deep inpainting model LaMa to fill the hole plausibly, es- tablish three guide images consisting of
+                    structure, segmentation, depth, and apply a multiply-guided PatchMatch to produce eight candidate
+                    upsampled inpainted images. Next, we feed all candidate inpaintings through a novel curation module
+                    that chooses a good inpainting by column summation on an 8x8 antisymmetric pairwise preference
+                    matrix.
+                  </p>
+                </td>
+              </tr>
 
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            <td style="padding:20px;width:35%;vertical-align:middle">
-              <img src="images/penn_logo.jpg" style="width:100%;max-width:100%" alt="upenn">
-            </td>
-            <td width="65width:65%;%" valign="center">
-              <a href="https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=CIS_581:_Computer_Vision_%26_Computational_Photography">Teaching Assistant, CIS581 Computer Vision and Computational Photography (Professor Jianbo Shi), Fall 2018, Fall 2019</a>
-              <br>
-              <br>
-              <a href="https://sites.google.com/seas.upenn.edu/cis680fall19">Teaching Assistant, CIS680 Vision and Learning (Professor Jianbo Shi), Fall 2019</a>
-              <br>
-              <br>
-              <a href="https://www.seas.upenn.edu/~cis519/spring2018/">Teaching Assistant, CIS519 Applied Machine Learning (Professor Dan Roth), Spring 2018</a>
-              <br>
-              <br>              
-            </td>
-          </tr>
+              <tr onmouseout="EgoHOS()" onmouseover="EgoHOS()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='outpaint'><img src='images/egohos.gif' style="width:100%;max-width:100%"></div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <!--               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf"> -->
+                  <papertitle>Fine-Grained Egocentric Hand-Object Segmentation: Dataset, Model, and Applications
+                  </papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang*</strong>,
+                  Shenghao Zhou*,
+                  Simon Stent,
+                  Jianbo Shi (* indicates equal contribution)
+                  <br>
+                  <em>ECCV 2022</em>
+                  <br>
+                  <p></p>
+                  <p>
+                    Egocentric videos offer fine-grain information for high-fidelity modeling of human behaviors. We
+                    provide a labeled dataset consisting of 11,235 egocentric images with per-pixel segmentation labels
+                    of hands and the interacting objects in diverse daily activities. We show that our robust
+                    hand-object segmentation model and dataset can serve as a foundation tool to boost or enable several
+                    downstream vision applications.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="Placement()" onmouseover="Placement()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='outpaint'><img src='images/cvpr_placement.jpg'
+                        style="width:100%;max-width:100%"></div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580562.pdf">
+                    <papertitle>Learning Diverse Object Placement by Inpainting for Compositional Data Augmentation
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang</strong>,
+                  Tarmily Wen,
+                  Jie Min,
+                  David Han,
+                  Jianbo Shi
+                  <br>
+                  <em>ECCV 2020</em>
+                  <br>
+                  <p></p>
+                  <p>
+                    We study the problem of common sense placement of visual objects in an image. We first propose a
+                    self-learning framework that automatically generates necessary training data without any manual
+                    labeling by detecting, cutting, and inpainting objects from an image. We learn a generative model
+                    that predicts a set of diverse common sense locations when given a foreground object and a
+                    background scene. We show experimentally our object placement newtork can be used to augment
+                    training data to boost instance segmentation.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="Scale_Edit()" onmouseover="Scale_Edit()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='scale_edit'><img src='images/cvpr_scale_edit_v3.jpg'
+                        style="width:100%;max-width:100%"></div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <a
+                    href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Nested_Scale-Editing_for_Conditional_Image_Synthesis_CVPR_2020_paper.pdf">
+                    <papertitle>Nested Scale-Editing for Conditional Image Synthesis</papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang*</strong>,
+                  Jiancong Wang*,
+                  Yinshuang Xu,
+                  Jie Min,
+                  Tarmily Wen,
+                  James C. Gee,
+                  Jianbo Shi (* indicates equal contribution)
+                  <br>
+                  <em>CVPR 2020</em>
+                  <br>
+                  <p></p>
+                  <p>
+                    We proposed an image synthesis approach that provides stratified navigation in the latent code
+                    space. We achieve this through scale-independent editing while expanding scale-specific diveristy.
+                    Scale-independent is achieved with a nested scale disentanglement loss. Scale-specific diversity is
+                    created by incorporating a progressive diversification constraint.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="DeepBlend()" onmouseover="DeepBlend()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='blend'><img src='images/wacv_blend.jpg' style="width:100%;max-width:100%">
+                    </div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <a
+                    href="http://openaccess.thecvf.com/content_WACV_2020/papers/Zhang_Deep_Image_Blending_WACV_2020_paper.pdf">
+                    <papertitle>Deep Image Blending</papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang</strong>,
+                  Tarmily Wen,
+                  Jianbo Shi
+                  <br>
+                  <em>WACV 2020
+                    <br>
+                    <p></p>
+                    <p>
+                      We propose a Poisson blending loss that achieves the same purpose of Poisson Image Editing. We
+                      jointly optimize the proposed Poisson blending loss with style and content loss computed from a
+                      deep network, and reconstruct the blending region by iteratively updating the pixels using the
+                      L-BFGS solver. In the blending image, we not only smooth out gradient domain of the blending
+                      boundary but also add consistent texture into the blending region.
+                    </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="Outpaint()" onmouseover="Outpaint()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='outpaint'><img src='images/wacv_outpaint.jpg'
+                        style="width:100%;max-width:100%"></div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <a
+                    href="http://openaccess.thecvf.com/content_WACV_2020/papers/Zhang_Multimodal_Image_Outpainting_With_Regularized_Normalized_Diversification_WACV_2020_paper.pdf">
+                    <papertitle>Multimodal Image Outpainting with Regularized Normalized Diversification</papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang</strong>,
+                  Jiancong Wang,
+                  Jianbo Shi
+                  <br>
+                  <em>WACV 2020
+                    <br>
+                    <p></p>
+                    <p>
+                      We study the problem of generating a set of realistic and diverse backgrounds when given only a
+                      small foreground region, which we formulate as image outpainting task. We propose a generative
+                      model by improving the normalized diversification framework to encourage diverse sampling in this
+                      conditional synthesis task. The results show that our proposed approach can produce more diverse
+                      images with similar or better quality compare to the state-of-the-arts methods.
+                    </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="NeuralEmbedding()" onmouseover="NeuralEmbedding()">
+                <td style="padding:20px;width:35%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='nips_emb'><img src='images/nips_emb.jpg' style="width:100%;max-width:100%">
+                    </div>
+                  </div>
+                </td>
+                <td style="padding:20px;width:65px;%;vertical-align:top">
+                  <a href="https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_119.pdf">
+                    <papertitle>Neural Embedding for Physical Manipulations</papertitle>
+                  </a>
+                  <br>
+                  <strong>Lingzhi Zhang*</strong>,
+                  Andong Cao*,
+                  Rui Li,
+                  Jianbo Shi (* indicates equal contribution)
+                  <br>
+                  <em>Machine Learning for Physical Science Workshop, NeurIPS</em>, 2019
+                  <br>
+                  <p></p>
+                  <p>
+                    Inspired by the properties of grid cells in mammalian brains, we build a generative model that
+                    enforces a normalized pairwise distance constraint between the latent space and output space to
+                    achieve data-efficient discovery of output spaces. We leverage this approach to learn the full
+                    topology of action and state spaces when given only few and sparse observations.
+                  </p>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Teaching</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellpadding="20">
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src="images/penn_logo.jpg" style="width:100%;max-width:100%" alt="upenn">
+              </td>
+              <td width="65width:65px;%" valign="center">
+                <a
+                  href="https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=CIS_581:_Computer_Vision_%26_Computational_Photography">Teaching
+                  Assistant, CIS581 Computer Vision and Computational Photography (Professor Jianbo Shi), Fall 2018,
+                  Fall 2019</a>
+                <br>
+                <br>
+                <a href="https://sites.google.com/seas.upenn.edu/cis680fall19">Teaching Assistant, CIS680 Vision and
+                  Learning (Professor Jianbo Shi), Fall 2019</a>
+                <br>
+                <br>
+                <a href="https://www.seas.upenn.edu/~cis519/spring2018/">Teaching Assistant, CIS519 Applied Machine
+                  Learning (Professor Dan Roth), Spring 2018</a>
+                <br>
+                <br>
+              </td>
+      </tr>
       </td>
-    </tr>
+      </tr>
   </table>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Industrial Experiences</heading>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            <td style="padding:20px;width:35%;vertical-align:middle">
-              <img src="images/adobe.png" style="width:80%;max-width:80%" alt="ibm">
-            </td>
-            <td width="65width:65%;%" valign="center">
-              Adobe Research Intern, May 2020 - Present
-              <br>
-              <br>           
-            </td>
-          </tr>
-      </td>
-    </tr>
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tbody>
+      <tr>
+        <td>
+          <heading>Industrial Experiences</heading>
+        </td>
+      </tr>
+    </tbody>
   </table>
 
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            <td style="padding:20px;width:35%;vertical-align:middle">
-              <img src="images/ibm.jpg" style="width:100%;max-width:100%" alt="ibm">
-            </td>
-            <td width="65width:65%;%" valign="center">
-              Machine Learning Intern, June - August 2015
-              <br>
-              <br>           
-            </td>
-          </tr>
+  <table width="100%" align="center" border="0" cellpadding="20">
+    <tbody>
+      <td style="padding:20px;width:35%;vertical-align:middle">
+        <img src="images/adobe.png" style="width:80%;max-width:80%" alt="ibm">
       </td>
-    </tr>
+      <td width="65width:65px;%" valign="center">
+        Adobe Research Intern, May 2020 - Present
+        <br>
+        <br>
+      </td>
+      </tr>
+      </td>
+      </tr>
   </table>
 
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            <td style="padding:20px;width:35%;vertical-align:middle">
-              <img src="images/zhenfund.jpg" style="width:100%;max-width:100%" alt="zhenfund">
-            </td>
-            <td width="65width:65%;%" valign="center">
-              Investment Analyst Intern, August 2015 - February 2016
-              <br>
-              <br>           
-            </td>
-          </tr>
+  <table width="100%" align="center" border="0" cellpadding="20">
+    <tbody>
+      <td style="padding:20px;width:35%;vertical-align:middle">
+        <img src="images/ibm.jpg" style="width:100%;max-width:100%" alt="ibm">
       </td>
-    </tr>
+      <td width="65width:65px;%" valign="center">
+        Machine Learning Intern, June - August 2015
+        <br>
+        <br>
+      </td>
+      </tr>
+      </td>
+      </tr>
+  </table>
+
+  <table width="100%" align="center" border="0" cellpadding="20">
+    <tbody>
+      <td style="padding:20px;width:35%;vertical-align:middle">
+        <img src="images/zhenfund.jpg" style="width:100%;max-width:100%" alt="zhenfund">
+      </td>
+      <td width="65width:65px;%" valign="center">
+        Investment Analyst Intern, August 2015 - February 2016
+        <br>
+        <br>
+      </td>
+      </tr>
+      </td>
+      </tr>
   </table>
 
 </body>
 
 </html>
-
