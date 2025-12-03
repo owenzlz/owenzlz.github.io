@@ -29,3 +29,6 @@ add to News section:
 04/2023: My PhD research paper “Guided Patch” (link: https://arxiv.org/pdf/2208.03552) was productized in Photoshop (add icon). It introduced the first hybrid deep-learning and patch-synthesis method that can generate images at unlimited ultra-high resolution.
 02/2024: My Phd research papers "Perceptual Artifacts Localization V1/V2" (link: https://arxiv.org/pdf/2208.03357, https://arxiv.org/pdf/2310.05590) were was productized and integrated in Photoshop Remove Tool (add icon).
 
+add to News: 
+08/2025, Fine-grained Defocus Blur Control for Generative Image Models, https://arxiv.org/pdf/2510.06215
+
