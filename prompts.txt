@@ -1,0 +1,7 @@
+04/2025, Layer-and Timestep-Adaptive Differentiable Token Compression Ratios for Efficient Diffusion Transformers, https://openaccess.thecvf.com/content/CVPR2025/papers/You_Layer-_and_Timestep-Adaptive_Differentiable_Token_Compression_Ratios_for_Efficient_Diffusion_CVPR_2025_paper.pdf
+04/2025, Finecaption: Compositional image captioning focusing on wherever you want at any granularity, https://openaccess.thecvf.com/content/CVPR2025/papers/Hua_FINECAPTION_Compositional_Image_Captioning_Focusing_on_Wherever_You_Want_at_CVPR_2025_paper.pdf
+08/2024, Good seed makes a good crop: Discovering secret seeds in text-to-image diffusion models, https://ieeexplore.ieee.org/abstract/document/10943986/
+08/2024, Detecting Origin Attribution for Text-to-Image Diffusion Models, https://openaccess.thecvf.com/content/WACV2025/papers/Xu_Detecting_Origin_Attribution_for_Text-to-Image_Diffusion_Models_WACV_2025_paper.pdf
+04/2024, Brush2Prompt: Contextual Prompt Generator for Object Inpainting, https://openaccess.thecvf.com/content/CVPR2024/papers/Chiu_Brush2Prompt_Contextual_Prompt_Generator_for_Object_Inpainting_CVPR_2024_paper.pdf
+04/2024, Amodal completion via progressive mixed context diffusion, https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Amodal_Completion_via_Progressive_Mixed_Context_Diffusion_CVPR_2024_paper.pdf
+
