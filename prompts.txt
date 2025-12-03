@@ -20,3 +20,8 @@ https://www.redsharknews.com/adobe-max-2025-sneaks-first-look
 https://www.techradar.com/pro/better-object-removal-improved-lighting-and-more-these-sneaks-could-be-adobes-next-big-leap-forward
 
 
+in News section add: 
+07/2025: Shipped an ultra-fast (~1s) diffusion-based removal model in Photoshop, delivering state-of-the-art production-level quality with virtually no insertion artifacts.
+08/2025: Extended the ultra-fast (~1s) diffusion-based removal model to Lightroom and Adobe Camera Raw, with full compatibility and high fidelity on RAW images.
+10/2025: Shipped an upgraded, ultra–high-quality diffusion-based removal model in Photoshop, supporting native 2K-resolution generation and significantly improved visual realism.
+
