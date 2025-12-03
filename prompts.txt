@@ -26,6 +26,6 @@ in News section add:
 10/2025: Shipped an upgraded, ultra–high-quality diffusion-based removal model in Photoshop, supporting native 2K-resolution generation and significantly improved visual realism.
 
 add to News section: 
-04/2023: My PhD research paper “Guided Patch” (link: https://arxiv.org/pdf/2208.03552) was productized and shipped in Photoshop (add icon). It introduced the first hybrid deep-learning and patch-synthesis method that can generate images at essentially unlimited ultra-high resolution.
+04/2023: My PhD research paper “Guided Patch” (link: https://arxiv.org/pdf/2208.03552) was productized in Photoshop (add icon). It introduced the first hybrid deep-learning and patch-synthesis method that can generate images at unlimited ultra-high resolution.
 02/2024: My Phd research papers "Perceptual Artifacts Localization V1/V2" (link: https://arxiv.org/pdf/2208.03357, https://arxiv.org/pdf/2310.05590) were was productized and integrated in Photoshop Remove Tool (add icon).
 
