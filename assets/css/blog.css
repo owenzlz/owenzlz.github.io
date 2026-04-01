@@ -1,0 +1,215 @@
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  background: #fff;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f09228;
+}
+
+/* Nav */
+.blog-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
+.blog-nav .nav-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+/* Main content */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+}
+
+/* Blog index */
+.blog-container h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.post-list {
+  list-style: none;
+}
+
+.post-list li {
+  margin-bottom: 24px;
+}
+
+.post-list .post-date {
+  display: block;
+  font-size: 14px;
+  color: #888;
+}
+
+.post-list .post-link {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.post-list .post-excerpt {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Post */
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-title {
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.post-tags {
+  margin-top: 8px;
+}
+
+.tag {
+  display: inline-block;
+  background: #f0f0f0;
+  color: #555;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-right: 6px;
+}
+
+.post-content h2 {
+  font-size: 24px;
+  margin: 36px 0 16px;
+}
+
+.post-content h3 {
+  font-size: 20px;
+  margin: 28px 0 12px;
+}
+
+.post-content p {
+  margin-bottom: 16px;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 16px 0;
+}
+
+.post-content blockquote {
+  border-left: 3px solid #1772d0;
+  padding-left: 16px;
+  color: #555;
+  margin: 16px 0;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 16px 0 16px 24px;
+}
+
+.post-content li {
+  margin-bottom: 6px;
+}
+
+/* Code */
+.post-content code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 14px;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.post-content pre {
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Syntax highlighting (rouge - GitHub style) */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp,
+.highlight .kr, .highlight .kt { color: #d73a49; }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .se { color: #032f62; }
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs { color: #6a737d; font-style: italic; }
+.highlight .nb, .highlight .bp { color: #005cc5; }
+.highlight .nf, .highlight .nx { color: #6f42c1; }
+.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo { color: #005cc5; }
+.highlight .o, .highlight .ow { color: #d73a49; }
+.highlight .na { color: #005cc5; }
+.highlight .nc, .highlight .nn { color: #005cc5; }
+
+/* Post bottom nav */
+.post-nav {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+}
+
+/* Footer */
+.blog-footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
+  border-top: 1px solid #eee;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .blog-container { padding: 16px 16px 40px; }
+  .post-title { font-size: 24px; }
+  .post-content h2 { font-size: 20px; }
+}

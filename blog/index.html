@@ -1,0 +1,22 @@
+---
+layout: blog
+title: Blog
+---
+
+<h1>Blog</h1>
+
+{% if site.posts.size == 0 %}
+  <p>No posts yet. Check back soon!</p>
+{% else %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.description %}
+        <p class="post-excerpt">{{ post.description }}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}

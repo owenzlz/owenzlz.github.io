@@ -1,0 +1,30 @@
+title: "Lingzhi Zhang"
+description: "Personal blog"
+url: "https://owenzlz.github.io"
+baseurl: ""
+
+theme: null
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+exclude:
+  - commit.sh
+  - test.py
+  - prompts.txt
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - egohos.gif
+
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
