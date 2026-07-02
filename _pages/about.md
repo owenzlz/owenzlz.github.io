@@ -6,7 +6,7 @@ subtitle: Research Scientist at <a href='https://www.adobe.com/'>Adobe</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false
   more_info:
 
@@ -24,6 +24,6 @@ latest_posts:
   limit: 3
 ---
 
-I work on multimodal understanding and synthesis. I am a Researcher and Tech Lead for Generative Editing features deployed in Photoshop and Lightroom ecosystems.
+I am a Research Scientist and Tech Lead at [Adobe](https://www.adobe.com/), where I have led the R&D of multiple generations of GenAI-powered editing features shipped across the Photoshop and Lightroom ecosystems.
 
 I received my PhD in Computer and Information Science at the [University of Pennsylvania](https://www.upenn.edu/) in 2023, advised by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/).
