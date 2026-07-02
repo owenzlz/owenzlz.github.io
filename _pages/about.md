@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist at <a href='https://www.adobe.com/'>Adobe</a>
+subtitle:
 
 profile:
   align: right
@@ -24,6 +24,6 @@ latest_posts:
   limit: 3
 ---
 
-I am a Research Scientist and Tech Lead at [Adobe](https://www.adobe.com/), where I have led the R&D of multiple generations of GenAI-powered editing features shipped across the Photoshop and Lightroom ecosystems.
+I am a Research Scientist and Tech Lead at [Adobe](https://www.adobe.com/), where I have led multiple generations of GenAI-powered editing features shipped across the Photoshop and Lightroom ecosystems.
 
 I received my PhD in Computer and Information Science at the [University of Pennsylvania](https://www.upenn.edu/) in 2023, advised by [Prof. Jianbo Shi](https://www.cis.upenn.edu/~jshi/).
