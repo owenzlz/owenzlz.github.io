@@ -3,6 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Teaching assistant positions at the University of Pennsylvania.
+hide_header: true
 nav: true
 nav_order: 3
 ---
